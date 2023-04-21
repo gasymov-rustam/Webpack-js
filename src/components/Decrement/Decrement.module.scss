@@ -1,0 +1,9 @@
+@import '/src/app/style/global.scss';
+
+.block > * {
+  color: rgb(255, 72, 0);
+
+  @include tablet {
+    color: rgb(72, 255, 0);
+  }
+}
