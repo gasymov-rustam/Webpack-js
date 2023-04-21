@@ -12,6 +12,8 @@ export const Decrement = memo(() => {
     dispatch(decrementActions.setDecrementValue(3));
   };
 
+  console.log('Decrement', __IS_DEV__);
+
   return (
     <div className={style.block}>
       <button type="button" onClick={handleStateChange}>
